@@ -1,0 +1,115 @@
+﻿<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Option page</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	</head>
+	
+	<body>
+		<header>
+			<ul>
+				<li><img src="../icons/logo.png" /></li>
+				<li><h1>BWFilter</h1></li>
+				<hr />
+				<li><a class="" href="settings.html">Features</a></li>
+				<li><a class="" href="howto.html">How to</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+			</ul>
+		</header>
+
+		<div class="content">
+            <h1>About</h1>
+
+            <h3>General</h3>
+            <p>This is a Firefox Web Extention used to apply a black & white filter. It could be used for multiple reasons like to see if a page uses &#60;br /&#62; to create white space instead of margins.</p>
+
+            <h3>Technical</h3>
+            <p>Programing languge :</p>
+            <ul>
+                <li>JavaScript</li>
+                <li>JSON</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+
+            <h3>Developper</h3>
+            <p>
+                Maxim Perry <br />
+                ESDC - Employment and Social Development Canada <br />
+                Website : <a href="#" id="slashon">www.slashon.ca</a>
+            </p>
+        </div>
+	
+		<style>
+			body {
+				margin: 0;
+				background-color: #f6f6f6;
+				border: 1px solid black;
+                /*height : 300px;*/
+			}
+			header {
+				margin: 0;
+			}
+			header ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 10px;
+				padding-top: 20px;
+				max-width: 250px;
+				background-color: #E8E8E8;
+				position: fixed;
+				overflow: auto;
+                height: 99%;
+                box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+
+			li a {
+				display: block;
+				color: #000;
+				padding: 8px 16px;
+				text-decoration: none;
+				font-family:Verdana, Geneva, sans-serif;
+                transition: background-color 0.5s, color 0.5s;
+			}
+
+			li a.active {
+				background-color: #AB120B;
+				color: white;
+			}
+
+			li a:hover {
+				background-color: #555;
+				color: white;
+			} h1, h2, h3, h4 {
+				font-family:Century Gothic, Verdana, Geneva, sans-serif;
+				margin: 0;
+			}
+              h3 {
+                  margin-top:20px;
+              }
+              a {
+                  color: #AB120B;
+                  text-decoration: none;
+              }
+			.content {
+				padding-top : 5px;
+				margin-left: 210px;
+			}
+            label {
+                font-family:Century Gothic, Verdana, Geneva, sans-serif;
+            }
+          
+            p {
+                margin-bottom:0;
+                font-family:Century Gothic, Verdana, Geneva, sans-serif;
+                font-size: 14px;
+            }
+            ul li {
+                font-size: 14px;
+            }
+		</style>
+        <script src="script.js"></script>
+	</body>
+</html>

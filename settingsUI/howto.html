@@ -1,0 +1,111 @@
+﻿<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Option page</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	</head>
+	
+	<body>
+		<header>
+			<ul>
+				<li><img src="../icons/logo.png" /></li>
+				<li><h1>BWFilter</h1></li>
+				<hr />
+				<li><a class="" href="settings.html">Features</a></li>
+				<li><a class="active" href="howto.html">How to</a></li>
+                <li><a class="" href="about.html">About</a></li>
+			</ul>
+		</header>
+
+		<div class="content">
+            <h1>How to</h1>
+            <p>This Web extension is quite easy to use. Here is a quick guide to help you get started.</p>
+            
+            <h3>Clicking the icon</h3>
+
+            <p>Clicking the plugin's icon from the toolbar will execute it. It will inject a CSS greyscale filter in a web page.</p>
+
+            <p>If the plugin's icon is clicked a second time, it will remove the injected CSS and the web page will become normal again.</p>
+        </div>
+	
+		<style>
+			body {
+				margin: 0;
+				background-color: #f6f6f6;
+				border: 1px solid black;
+                height : 300px;
+			}
+			header {
+				margin: 0;
+			}
+			header ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 10px;
+				padding-top: 20px;
+				max-width: 250px;
+				background-color: #E8E8E8;
+				position: fixed;
+				overflow: auto;
+                height: 99%;
+                box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+
+			li a {
+				display: block;
+				color: #000;
+				padding: 8px 16px;
+				text-decoration: none;
+				font-family:Verdana, Geneva, sans-serif;
+                transition: background-color 0.5s, color 0.5s;
+			}
+
+			li a.active {
+				background-color: #AB120B;
+				color: white;
+			}
+
+			li a:hover {
+				background-color: #555;
+				color: white;
+			} h1, h2, h3, h4 {
+				font-family:Century Gothic, Verdana, Geneva, sans-serif;
+				margin: 0;
+			}
+              h3 {
+                  margin-top:20px;
+              }
+			.content {
+				padding-top : 5px;
+				margin-left: 210px;
+			}
+            label {
+                font-family:Century Gothic, Verdana, Geneva, sans-serif;
+            }
+            button {
+                background-color: #555 ;
+                color: white ;
+                padding: 10px;
+                font-family:Century Gothic, Verdana, Geneva, sans-serif;
+                text-decoration: none;
+                padding-left: 50px;
+                padding-right: 50px;
+                border: none;
+                position: absolute;
+                top: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            p {
+                margin-bottom:0;
+                font-family:Century Gothic, Verdana, Geneva, sans-serif;
+                font-size: 14px;
+            }
+            ul li {
+                font-size: 14px;
+            }
+		</style>
+        <script src="options_border.js"></script>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "BWFilter@slashon.ca",
+      "strict_min_version": "45.0"
+    }
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Apply black and white filter",
+    "default_icon": {
+      "19": "icons/icon-19.png",
+      "38": "icons/icon-38.png"
+    }
+  },
+  "background": { "scripts": ["scripts/background_script.js"] },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "scripts/content_script.js" ]
+    }
+  ],
+  "description": "SlashOn BW filter",
+  "homepage_url": "http://www.slashon.ca",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "manifest_version": 2,
+  "name": "SlashOn BW filter",
+  "options_ui": {
+    "page": "settingsUI/settings.html",
+    "browser_style": true
+  },
+  "permissions": [
+    "<all_urls>",
+    "notifications",
+    "storage",
+    "activeTab"
+  ],
+  "version": "1.4.0",
+  "author": "Maxim Perry",
+  "web_accessible_resources": [
+    "icons/*.png",
+    "*.html",
+    "*.js"
+  ]
+}
