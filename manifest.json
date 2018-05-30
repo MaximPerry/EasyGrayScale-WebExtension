@@ -20,8 +20,8 @@
       "js": [ "scripts/content_script.js" ]
     }
   ],
-  "description": "SlashOn BW filter",
-  "homepage_url": "http://www.slashon.ca",
+  "description": "Firefox Gray scale filter",
+  "homepage_url": "https://github.com/MaximPerry/Firefox-GrayScaleFilter",
   "icons": {
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png"
