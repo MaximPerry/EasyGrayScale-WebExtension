@@ -1,4 +1,16 @@
 # Firefox-GrayScaleFilter
-This is a simple and light weight Firefox add-on that makes web pages gray scaled (black and white) with the touche of a button. 
+Welcome!
+
+Firefox GrayScaleFilter was born from a need in Accessibility Testing at [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html).
+
+It is free to use, open to edit and licensed [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). Read our LICENSE to know more.
 
 Download link : [Download](https://github.com/MaximPerry/Firefox-GrayScaleFilter/blob/master/compiled/firefox_GrayscaleFilter.xpi?raw=true)
+
+Once downloaded, install it by opening it with Firefox. Once installed, you'll have a new icon in your toolbar. Simply click on it to make a web page gray scaled.
+__________
+## Details
+Languages 
+- HTML
+- CSS
+- JavaScript
