@@ -10,7 +10,14 @@ Download link : [Download](https://github.com/MaximPerry/Firefox-GrayScaleFilter
 Once downloaded, install it by opening it with Firefox. Once installed, you'll have a new icon in your toolbar. Simply click on it to make a web page gray scaled.
 __________
 ## Details
-Languages 
+### Languages 
 - HTML
-- CSS
 - JavaScript
+- JSON
+
+### APIs
+Firefox Extensions API.
+
+### Requirements
+Firefox GrayScaleFilter requires Firefox 45 and above. Beta versions of Firefox such as Developer Edition and Nightly Edition should be supported.
+
