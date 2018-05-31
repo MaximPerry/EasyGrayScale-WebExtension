@@ -21,3 +21,11 @@ Firefox Extensions API.
 ### Requirements
 Firefox GrayScaleFilter requires Firefox 45 and above. Beta versions of Firefox such as Developer Edition and Nightly Edition should be supported.
 
+### Developing
+We encorage others to join!
+
+### Links
+- [ESDC](https://www.canada.ca/en/employment-social-development.html)
+- [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+- [Writing extentions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension)
+- [Developer Hub](https://addons.mozilla.org/en-US/developers/)
