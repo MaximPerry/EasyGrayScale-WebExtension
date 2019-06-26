@@ -7,7 +7,7 @@
   },
   "browser_action": {
     "browser_style": true,
-    "default_title": "Apply black and white filter",
+    "default_title": "B&W filter",
     "default_icon": {
       "19": "icons/icon-19.png",
       "38": "icons/icon-38.png"
@@ -38,7 +38,7 @@
     "storage",
     "activeTab"
   ],
-  "version": "1.4.0",
+  "version": "1.4.1",
   "author": "Maxim Perry",
   "web_accessible_resources": [
     "icons/*.png",
