@@ -1,4 +1,4 @@
-# Firefox-GrayScaleFilter
+# GrayScaleFiler - Web Plugin
 Welcome!
 
 Firefox GrayScaleFilter was born from a need in Accessibility Testing at [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html).
