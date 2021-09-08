@@ -1,10 +1,4 @@
 {
-  "applications": {
-    "gecko": {
-      "id": "BWFilter@slashon.ca",
-      "strict_min_version": "45.0"
-    }
-  },
   "browser_action": {
     "browser_style": true,
     "default_title": "B&W filter",
