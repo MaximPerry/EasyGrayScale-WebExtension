@@ -13,10 +13,10 @@ Download links :
 ## How to use
 Once installed, the EasyGrayScale icon should appear in your browser's taskbar. Simply click on it and the website you're currently viewing will have a grayscale applied.
 
-__________
-
 ## Additional Links
 - [ESDC](https://www.canada.ca/en/employment-social-development.html)
 - [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 - [Writing extentions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension)
 - [Developer Hub](https://addons.mozilla.org/en-US/developers/)
+
+__________
