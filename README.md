@@ -7,7 +7,7 @@ It is free to use, open to edit and licensed [MIT](https://github.com/MaximPerry
 
 Download links : 
 - [Download for Firefox]();
-- [Download for Edge();
+- [Download for Edge]();
 - [Download for Chrome]();
 
 ## How to use
