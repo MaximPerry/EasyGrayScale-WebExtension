@@ -1,7 +1,7 @@
-# GrayScaleFiler - Web Plugin
+# EasyGrayScale - Web Extension
 Welcome!
 
-Firefox GrayScaleFilter was born from a need in Accessibility Testing at [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html).
+Firefox EasyGrayScale was born from a need in Accessibility Testing at [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html).
 
 It is free to use, open to edit and licensed [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). Read our LICENSE to know more.
 
